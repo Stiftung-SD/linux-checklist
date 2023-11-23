@@ -14,6 +14,10 @@ Die meisten Punkte sollten out of the box zutreffen, damit wir das Gerät mit gu
 - [ ] Werden Trackpad-Gestures korrekt erkannt?
 - [ ] Werden die Mediakeys/fn-F*-Funktionen korrekt erkannt?
 - [ ] Funktioniert der Fingerabdruckleser?
+- [ ] Funktioniert ggf. der Touchscreen?
+    - [ ] Mit Fingereingaben?
+    - [ ] Mit Stifteingaben? (Achtung: nicht alle Touchscreens unterstützen Stifte)
+    - [ ] Bei Convertibles: Wird erkannt, wenn das Gerät im Tablet-Modus verwendet wird?
 
 ## Anzeige/Grafik
 
