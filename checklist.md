@@ -33,3 +33,12 @@ Die meisten Punkte sollten out of the box zutreffen, damit wir das Gerät mit gu
 - [ ] Funktionieren die Lautsprecher?
 - [ ] Funktioniert der 3.5mm-Jack?
 - [ ] Funktioniert das Mikrofon?
+
+## Connectivity
+
+- [ ] Wird der WLAN-Chip erkannt und kann er eine Verbindung aufbauen?
+- [ ] Wird der Bluetooth-Chip erkannt und kann er eine Verbindung aufbauen?
+- [ ] Werden die USB-Ports erkannt und erkennen sie Geräte?
+- [ ] Falls vorhanden: Werden die Thunderbolt-Ports erkannt und erkennen sie Geräte?
+- [ ] Funktioniert DP Alt Mode über die USB-/Thunderbolt-Ports?
+- [ ] Falls vorhanden: Funktioniert der HDMI-Port?
