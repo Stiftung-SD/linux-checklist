@@ -2,24 +2,26 @@
 
 name: Checklist-to-PDF
 on:
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - 'checklist.md'
+ release:
+   types: [published]
 
 jobs:
   converttopdf:
     name: Build PDF
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: baileyjm02/markdown-to-pdf@v1
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Convert to PDF
+        uses: baileyjm02/markdown-to-pdf@v1
         with:
-          input_dir: /
-          output_dir: /
-      - uses: actions/upload-artifact@v3
+          input_path: checklist.md
+          output_dir: .
+          build_html: false
+      - name: Attach PDF to release
+        uses: svenstaro/upload-release-action@v2
         with:
+          repo_token: ${{ secrest.GITHUB_TOKEN }}
+          file: ./checklist.pdf
           name: checklist-form.pdf
-          path: ./
+          tag: ${{ github.ref }}
