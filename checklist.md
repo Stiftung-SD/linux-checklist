@@ -1,8 +1,8 @@
 # Linux-Checkliste
 
-       Gerät: __________________
-Distribution: ------------------
-    OOTB ok?: [ ] ja    [ ] nein
+Gerät: __________________
+Distribution: ___________________
+OOTB ok?: [ ] ja    [ ] nein
 
 Die meisten Punkte sollten out of the box zutreffen, damit wir das Gerät mit gutem Gewissen als Linux-tauglich verkaufen können.
 
