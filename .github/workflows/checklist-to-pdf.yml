@@ -16,12 +16,12 @@ jobs:
         uses: baileyjm02/markdown-to-pdf@v1
         with:
           input_path: checklist.md
-          output_dir: .
+          output_dir: pdfs
           build_html: false
       - name: Attach PDF to release
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: ./checklist.pdf
+          file: pdfs/checklist.pdf
           name: checklist-form.pdf
           tag: ${{ github.ref }}
