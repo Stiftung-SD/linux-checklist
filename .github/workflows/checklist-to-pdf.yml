@@ -1,0 +1,24 @@
+# .github/workflows/checklist-to-pdf.yml
+
+name: Checklist-to-PDF
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'checklist.md'
+
+jobs:
+  converttopdf:
+    name: Build PDF
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: baileyjm02/markdown-to-pdf@v1
+        with:
+          input_dir: /
+          output_dir: /
+      - uses: actions/upload-artifact@v3
+        with:
+          name: docs
+          path: pdfs
