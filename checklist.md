@@ -22,6 +22,8 @@ Die meisten Punkte sollten out of the box zutreffen, damit wir das Gerät mit gu
     - [ ] Mit Fingereingaben?
     - [ ] Mit Stifteingaben? (Achtung: nicht alle Touchscreens unterstützen Stifte)
     - [ ] Bei Convertibles: Wird erkannt, wenn das Gerät im Tablet-Modus verwendet wird?
+- [ ] Wird die Kamera erkannt und funktioniert sie?
+    - [ ] Falls Gerät über elektrischen Kamera-Shutter verfügt, funktioniert dieser?
 
 ## Anzeige/Grafik
 
@@ -37,6 +39,7 @@ Die meisten Punkte sollten out of the box zutreffen, damit wir das Gerät mit gu
 - [ ] Funktionieren die Lautsprecher?
 - [ ] Funktioniert der 3.5mm-Jack?
 - [ ] Funktioniert das Mikrofon?
+- [ ] Funktioniert Audio-Ausgabe über HDMI/DP/DP Alt Mode (USB-C)?
 
 ## Connectivity
 
@@ -46,3 +49,4 @@ Die meisten Punkte sollten out of the box zutreffen, damit wir das Gerät mit gu
 - [ ] Falls vorhanden: Werden die Thunderbolt-Ports erkannt und erkennen sie Geräte?
 - [ ] Funktioniert DP Alt Mode über die USB-/Thunderbolt-Ports?
 - [ ] Falls vorhanden: Funktioniert der HDMI-Port?
+- [ ] Falls vorhanden: Funktioniert das WWAN?
