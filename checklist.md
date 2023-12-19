@@ -1,18 +1,22 @@
-# Linux-Checkliste
+# Linux-Checkliste für Projekt Neptun Geräte
 
-- Gerät: __________________
-- Distribution: ___________________
-- OOTB ok?: [ ] ja    [ ] nein
+- Gerät: ____________________________________
+- Distribution: ____________________________________
 
-Die meisten Punkte sollten out of the box zutreffen, damit wir das Gerät mit gutem Gewissen als Linux-tauglich verkaufen können.
+## Out of the Box Install Experience
+- Konnte das System vom Stick Out of The Box gebootet werden?: [ ] ja    [ ] nein
+- Konnte das System vom Stick Out of The Box ohne Fehler installiert werden?: [ ] ja    [ ] nein
 
-## Power/Suspend/Hibernate
+## Out of the Box User Experience
+Die folgenden Features sollten nach der Installation ohne weitere Interaktion funktionieren (sofern vorhanden):
+
+### Power/Suspend/Hibernate
 
 - [ ] Funktioniert suspend/resume bei Schliessen des Deckels?
 - [ ] Funktioniert suspens/resume bei Drücken des Power-Knopfs?
 - [ ] Sind die `intel_pstate` bzw. `amd_pstate`-Kernelmodule installiert & werden geladen?
 
-## HID 
+### HID 
 
 - [ ] Werden Tastatur-, Trackpad- und ggf. Trackpoint-Eingaben korrekt erkannt?
 - [ ] Werden Trackpad-Gestures korrekt erkannt?
@@ -25,7 +29,7 @@ Die meisten Punkte sollten out of the box zutreffen, damit wir das Gerät mit gu
 - [ ] Wird die Kamera erkannt und funktioniert sie?
     - [ ] Falls Gerät über elektrischen Kamera-Shutter verfügt, funktioniert dieser?
 
-## Anzeige/Grafik
+### Anzeige/Grafik
 
 - [ ] Wird fractional scaling des GUI unterstützt?
 - [ ] Wird die Hardware-Beschleunigung korrekt unterstützt?
@@ -33,7 +37,7 @@ Die meisten Punkte sollten out of the box zutreffen, damit wir das Gerät mit gu
     - [ ] Werden z.B. YouTube-Videos in Firefox korrekt beschleunigt?
 - [ ] Werden verfügbare Bildschirmauflösungen korrekt erkannt?
 
-## Audio
+### Audio
 
 - [ ] Wird der Audiochip als Audiogerät erkannt?
 - [ ] Funktionieren die Lautsprecher?
@@ -41,7 +45,7 @@ Die meisten Punkte sollten out of the box zutreffen, damit wir das Gerät mit gu
 - [ ] Funktioniert das Mikrofon?
 - [ ] Funktioniert Audio-Ausgabe über HDMI/DP/DP Alt Mode (USB-C)?
 
-## Connectivity
+### Connectivity
 
 - [ ] Wird der WLAN-Chip erkannt und kann er eine Verbindung aufbauen?
 - [ ] Wird der Bluetooth-Chip erkannt und kann er eine Verbindung aufbauen?
@@ -49,4 +53,4 @@ Die meisten Punkte sollten out of the box zutreffen, damit wir das Gerät mit gu
 - [ ] Falls vorhanden: Werden die Thunderbolt-Ports erkannt und erkennen sie Geräte?
 - [ ] Funktioniert DP Alt Mode über die USB-/Thunderbolt-Ports?
 - [ ] Falls vorhanden: Funktioniert der HDMI-Port?
-- [ ] Falls vorhanden: Funktioniert das WWAN?
+
